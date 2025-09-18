@@ -1,6 +1,4 @@
-# UD1 · Introducción a las Bases de Datos y SGBD
-
-En esta unidad recorrerás la evolución de la gestión de la información, los modelos de datos, los conceptos básicos de las BBDD y los SGBD.
+# UD1 · HTML primeros pasos
 
 ## Índice de la UD1
 1. [Introducción a HTML.](01-01.md)
