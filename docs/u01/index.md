@@ -3,7 +3,7 @@
 En esta unidad recorrerás la evolución de la gestión de la información, los modelos de datos, los conceptos básicos de las BBDD y los SGBD.
 
 ## Índice de la UD1
-1. [Introducción a HTML](01-01.md)
+1. [Introducción a HTML.](01-01.md)
 2. [Estructura básica de un documento HTML](01-02.md)
 3. [Etiquetas de texto en HTML](01-03.md)
 4. [Listas en HTML](01-04.md)
