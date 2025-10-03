@@ -19,7 +19,6 @@ extra_css:
   - 'assets/css/custom.css'  # Ruta al archivo CSS que acabamos de crear  
   - 'assets/css/stylesheets.css'
 nav:
-  - Índice: 'index.md'
   - UD1: 
       - "1.1 Introducción a HTML": "u01/01-01.md"
       - "1.2 Estructura básica de un documento HTML": "u01/01-02.md"
@@ -29,3 +28,5 @@ nav:
       - "1.6 Imágenes en HTML": "u01/01-06.md"
       - "1.7 Estructura semántica en HTML": "u01/01-07.md"
       - "1.8 Validación y pruebas en navegadores": "u01/01-08.md"
+  - UD2: 
+      - "2.1 Tablas en HTML": "u02/02-01.md"
