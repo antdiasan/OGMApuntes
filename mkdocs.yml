@@ -29,4 +29,47 @@ nav:
       - "1.7 Estructura semántica en HTML": "u01/01-07.md"
       - "1.8 Validación y pruebas en navegadores": "u01/01-08.md"
   - UD2: 
-      - "2.1 Tablas en HTML": "u02/02-01.md"
+      - "2.1 Formateo adicional y caracteres especiales": "u02/02-01.md"
+      - "2.2 Tablas en HTML":
+          - "Introducción": "u02/02-02-01.md"
+          - "Atributos clásicos": "u02/02-02-02.md"
+          - "Estructura semántica y accesibilidad": "u02/02-02-03.md"
+          - "Tablas complejas y anidadas": "u02/02-02-04.md"
+      - "2.3 Formularios en HTML":
+          - "Introducción": "u02/02-03-01.md"
+          - "Controles básicos": "u02/02-03-02.md"
+          - "Controles avanzados y validación nativa": "u02/02-03-03.md"
+          - "Organización de formularios largos": "u02/02-03-04.md"
+          - "Buenas prácticas y resumen": "u02/02-03-05.md"
+      - "2.4 Accesibilidad y SEO en HTML":
+          - "Accesibilidad - Conceptos básicos": "u02/02-04-01.md"
+          - "SEO - Conceptos básicos": "u02/02-04-02.md"
+      - "2.5 Validación y pruebas en navegadores":
+          - "Validación de HTML": "u02/02-05-01.md"
+          - "Compatibilidad": "u02/02-05-02.md"
+          - "Buenas prácticas finales": "u02/02-05-03.md"
+
+  - UD3:
+      - "3.1 Introducción a CSS": "u03/03-01.md"
+      - "3.2 Formas de aplicar CSS": "u03/03-02.md"
+      - "3.3 Sintaxis y estructura básica": "u03/03-03.md"
+      - "3.4 Selectores básicos": "u03/03-04.md"
+      - "3.5 Selectores avanzados y combinadores": "u03/03-05.md"
+      - "3.6 Cascada, herencia y especificidad": "u03/03-06.md"
+      - "3.7 Buenas prácticas en CSS": "u03/03-07.md"
+
+  - UD4:
+      - "4.1 Propiedades básicas de estilo":
+          - "Colores y fondos": "u04/04-01-01.md"
+          - "Tipografía y texto": "u04/04-01-02.md"
+          - "Bordes, márgenes y padding": "u04/04-01-03.md"
+          - "Unidades y medidas": "u04/04-01-04.md"
+      - "4.2 El Modelo de Caja (Box Model)": "u04/04-02.md"
+      - "4.3 Posicionamiento y display": "u04/04-03.md"
+      - "4.4 Maquetación con Flexbox": "u04/04-04.md"
+      - "4.5 Maquetación con Grid": "u04/04-05.md"
+      - "4.6 Diseño responsivo con media queries": "u04/04-06.md"
+      - "4.7 Transiciones y transformaciones": "u04/04-07.md"
+      - "4.8 Animaciones con keyframes": "u04/04-08.md"
+      - "4.9 Optimización y organización del CSS": "u04/04-09.md"
+      - "4.10 Accesibilidad y SEO con CSS": "u04/04-10.md"
