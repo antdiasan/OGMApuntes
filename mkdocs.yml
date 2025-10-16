@@ -30,24 +30,25 @@ nav:
       - "1.8 Validación y pruebas en navegadores": "u01/01-08.md"
   - UD2: 
       - "2.1 Formateo adicional y caracteres especiales": "u02/02-01.md"
-      - "2.2 Tablas en HTML":
-          - "Introducción": "u02/02-02-01.md"
-          - "Atributos clásicos": "u02/02-02-02.md"
-          - "Estructura semántica y accesibilidad": "u02/02-02-03.md"
-          - "Tablas complejas y anidadas": "u02/02-02-04.md"
-      - "2.3 Formularios en HTML":
+      - "2.2 Vídeos y Audios": "u02/02-02.md"
+      - "2.3 Tablas en HTML":
           - "Introducción": "u02/02-03-01.md"
-          - "Controles básicos": "u02/02-03-02.md"
-          - "Controles avanzados y validación nativa": "u02/02-03-03.md"
-          - "Organización de formularios largos": "u02/02-03-04.md"
-          - "Buenas prácticas y resumen": "u02/02-03-05.md"
-      - "2.4 Accesibilidad y SEO en HTML":
-          - "Accesibilidad - Conceptos básicos": "u02/02-04-01.md"
-          - "SEO - Conceptos básicos": "u02/02-04-02.md"
-      - "2.5 Validación y pruebas en navegadores":
-          - "Validación de HTML": "u02/02-05-01.md"
-          - "Compatibilidad": "u02/02-05-02.md"
-          - "Buenas prácticas finales": "u02/02-05-03.md"
+          - "Atributos clásicos": "u02/02-03-02.md"
+          - "Estructura semántica y accesibilidad": "u02/02-03-03.md"
+          - "Tablas complejas y anidadas": "u02/02-03-04.md"
+      - "2.4 Formularios en HTML":
+          - "Introducción": "u02/02-04-01.md"
+          - "Controles básicos": "u02/02-04-02.md"
+          - "Controles avanzados y validación nativa": "u02/02-04-03.md"
+          - "Organización de formularios largos": "u02/02-04-04.md"
+          - "Buenas prácticas y resumen": "u02/02-04-05.md"
+      - "2.5 Accesibilidad y SEO en HTML":
+          - "Accesibilidad - Conceptos básicos": "u02/02-05-01.md"
+          - "SEO - Conceptos básicos": "u02/02-05-02.md"
+      - "2.6 Validación y pruebas en navegadores":
+          - "Validación de HTML": "u02/02-06-01.md"
+          - "Compatibilidad": "u02/02-06-02.md"
+          - "Buenas prácticas finales": "u02/02-06-03.md"
 
   - UD3:
       - "3.1 Introducción a CSS": "u03/03-01.md"
