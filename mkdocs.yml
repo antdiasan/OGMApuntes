@@ -49,6 +49,7 @@ nav:
           - "Validación de HTML": "u02/02-06-01.md"
           - "Compatibilidad": "u02/02-06-02.md"
           - "Buenas prácticas finales": "u02/02-06-03.md"
+      - "2.7 Dar formato con HTML (sin CSS)": "u02/02-07.md"
 
   - UD3:
       - "3.1 Introducción a CSS": "u03/03-01.md"
