@@ -78,22 +78,13 @@ nav:
       - "Actividades propuestas": u03/03-15.md
 
   - UD4:
-      - "Estética web":
-          - "Colores y fondos": u04/03-01.md
-          - "Tipografía y fuentes": u04/03-01.md
-          - "Bordes y decoración": u04/03-01.md
-
-      - "Maquetación (layout)":
-          # Flexbox como herramienta principal
-          - "Flexbox (estructura flexible)": u04/03-01.md
-          # Posicionamiento solo en su forma básica
-          - "Posicionamiento (tipos básicos)": u04/03-01.md
-
-      - "Diseño responsive (móvil)": u04/03-01.md
-
-      # Contenido opcional / ampliación
-      - "Efectos visuales (opcional)":
-          - "Transiciones y efectos": u04/03-01.md
-
-      - "Proyecto final: portfolio web": u04/03-01.md
-      - "Actividades propuestas": u04/03-01.md
+      - Estructura de una página web: u04/04-01.md
+      - Flujo del documento y propiedad display:  u04/04-02.md
+      - Centrado de elementos:  u04/04-03.md
+      - Posicionamiento básico con CSS:  u04/04-04.md
+      - Introducción a Flexbox:  u04/04-05.md
+      - Flexbox:  u04/04-06.md
+      - Introducción al diseño responsive:  u04/04-07.md
+      - Media Queries básicas:  u04/04-08.md
+      - Imágenes y texto adaptables:  u04/04-09.md
+      - Proyecto práctico final:  u04/04-10.md
