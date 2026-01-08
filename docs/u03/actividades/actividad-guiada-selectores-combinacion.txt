@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad guiada: Selectores de combinación</title>
+  <link rel="stylesheet" href="selectores_combinacion.css">
+</head>
+<body>
+
+  <h1>Actividad guiada de selectores de combinación</h1>
+
+  <p class="intro">Párrafo introductorio fuera de cualquier contenedor.</p>
+
+  <div class="contenedor">
+    <h2>Título del contenedor</h2>
+    <p>Párrafo dentro del contenedor.</p>
+    <p class="destacado">Párrafo destacado dentro del contenedor.</p>
+  </div>
+
+  <div class="contenedor especial">
+    <h2>Título del contenedor especial</h2>
+    <p>Párrafo del contenedor especial.</p>
+    <p class="destacado">Otro párrafo destacado del contenedor especial.</p>
+  </div>
+
+  <h2>Lista de enlaces</h2>
+  <ul class="menu">
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Servicios</a></li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+
+  <h2>Sección final</h2>
+  <p>Párrafo inmediatamente después del título.</p>
+  <p>Otro párrafo de la sección final.</p>
+
+</body>
+</html>

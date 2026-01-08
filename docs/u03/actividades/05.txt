@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 05: Hermanos</title>
+    <link rel="stylesheet" href="05.css">
+</head>
+<body>
+
+    <div id="articulo">
+        <h1>Inteligencia Artificial</h1>
+        <p class="info">Objetivo: Destaca el primer párrafo tras cada título y estiliza las etiquetas del final.</p>
+        
+        <h2>1. Introducción</h2>
+        <p>La IA está transformando la industria a una velocidad vertiginosa.</p>
+        
+        <p>Este es un párrafo normal con más detalles sobre la historia.</p>
+        <p>Otro párrafo normal con datos técnicos irrelevantes.</p>
+
+        <h2>2. Futuro</h2>
+        <p>Se espera que para 2030 la automatización sea global.</p>
+        
+        <p>Las implicaciones éticas son un tema de debate constante.</p>
+        
+        <hr>
+        
+        <h3>Temas relacionados:</h3>
+        <span>Tecnología</span>
+        <span>Futuro</span>
+        <span>Innovación</span>
+    </div>
+
+</body>
+</html>

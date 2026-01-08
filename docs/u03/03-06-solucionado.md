@@ -36,12 +36,11 @@ Cambiar el color del texto de **todos los párrafos** de la página.
 
 ### Solución
 
-??? success "Solución (haz clic para mostrar)"
-    ```css
-      p {
-      color: blue;
-    }
-    ```
+```css
+p {
+  color: blue;
+}
+```
 
 ---
 
@@ -54,14 +53,13 @@ Añadir un borde y un relleno a **todas las cajas**.
 
 ### Solución
 
-??? success "Solución (haz clic para mostrar)"
-    ```css
-    .caja {
-      border: 2px solid black;
-      padding: 10px;
-      margin-bottom: 15px;
-    }
-    ```
+```css
+.caja {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+```
 
 ---
 
@@ -74,12 +72,11 @@ Cambiar el color del título de la **caja destacada**.
 
 ### Solución
 
-??? success "Solución (haz clic para mostrar)"
-    ```css
-    #titulo-destacado {
-      color: darkred;
-    }
-    ```
+```css
+#titulo-destacado {
+  color: darkred;
+}
+```
 
 ---
 
@@ -92,12 +89,11 @@ Hacer que todas las cajas de la página calculen su tamaño de la misma forma.
 
 ### Solución
 
-??? success "Solución (haz clic para mostrar)"
-    ```css
-    * {
-      box-sizing: border-box;
-    }
-    ```
+```css
+* {
+  box-sizing: border-box;
+}
+```
 
 !!! warning "Uso con precaución"
     El selector universal afecta a todos los elementos de la página.
@@ -113,12 +109,11 @@ Cambiar el borde únicamente del **campo de texto** del formulario.
 
 ### Solución
 
-??? success "Solución (haz clic para mostrar)"
-    ```css
-    input[type="text"] {
-      border: 2px solid green;
-    }
-    ```
+```css
+input[type="text"] {
+  border: 2px solid green;
+}
+```
 
 ---
 

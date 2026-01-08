@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad guiada: Pseudoselectores</title>
+</head>
+<body>
+
+  <h1>Actividad guiada de pseudoselectores</h1>
+
+  <p>
+    Este documento se utiliza para practicar pseudoselectores de CSS.
+  </p>
+
+  <p></p>
+
+  <h2>Enlaces</h2>
+  <p>
+    <a href="https://www.example.com">Enlace de ejemplo</a>
+  </p>
+
+  <h2>Lista</h2>
+  <ul>
+    <li>Elemento uno</li>
+    <li>Elemento dos</li>
+    <li>Elemento tres</li>
+    <li>Elemento cuatro</li>
+  </ul>
+
+  <h2>Formulario</h2>
+  <form>
+    <p>
+      <label>Nombre:</label><br>
+      <input type="text" required>
+    </p>
+
+    <p>
+      <label>Email:</label><br>
+      <input type="email">
+    </p>
+
+    <p>
+      <label>
+        <input type="checkbox"> Acepto las condiciones
+      </label>
+    </p>
+  </form>
+
+  <h2>Botones</h2>
+  <button>Enviar</button>
+  <button class="cancelar">Cancelar</button>
+
+  <p class="etiqueta">Elemento con etiqueta</p>
+
+</body>
+</html>

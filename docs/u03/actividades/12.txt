@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12: Desafío Final</title>
+    <link rel="stylesheet" href="12.css">
+</head>
+<body>
+
+    <h1 class="titulo-principal">Nuestros Planes</h1>
+
+    <div class="contenedor-precios">
+        
+        <div class="tarjeta">
+            <h3>Básico</h3>
+            <p class="precio">19</p>
+            <ul>
+                <li>1 Usuario</li>
+                <li>5GB Almacenamiento</li>
+                <li>Soporte por Email</li>
+            </ul>
+            <button>Elegir Plan</button>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Profesional</h3>
+            <p class="precio">49</p>
+            <ul>
+                <li>5 Usuarios</li>
+                <li>50GB Almacenamiento</li>
+                <li>Soporte 24/7</li>
+                <li>Dominio Gratis</li>
+            </ul>
+            <button>Elegir Plan</button>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Empresa</h3>
+            <p class="precio">99</p>
+            <ul>
+                <li>Ilimitados Usuarios</li>
+                <li>1TB Almacenamiento</li>
+                <li>Soporte Dedicado</li>
+            </ul>
+            <button>Elegir Plan</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

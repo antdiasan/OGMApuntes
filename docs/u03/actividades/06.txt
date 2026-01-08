@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 06: Consolidación</title>
+    <link rel="stylesheet" href="06.css">
+</head>
+<body>
+
+    <div id="panel-tareas">
+        <h1>Lista de Pendientes</h1>
+        <p class="descripcion">Proyecto: Rediseño Web Corporativo</p>
+
+        <ul>
+            <li>
+                <input type="checkbox">
+                <span>Maquetar Header</span>
+                <small>Alta Prioridad</small>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>Definir Paleta de Colores</span>
+                <ul>
+                    <li>Buscar referencias</li>
+                    <li>Validar con cliente</li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox">
+                <span>Optimizar Imágenes</span>
+                <small>Baja Prioridad</small>
+            </li>
+        </ul>
+        
+        <div class="footer">
+            <a href="#">Ver archivadas</a>
+            <a href="#">Configuración</a>
+        </div>
+    </div>
+
+</body>
+</html>

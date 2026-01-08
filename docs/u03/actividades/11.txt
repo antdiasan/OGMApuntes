@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11: Atributos</title>
+    <link rel="stylesheet" href="11.css">
+</head>
+<body>
+
+    <h1>Centro de Descargas</h1>
+
+    <div class="panel">
+        <h3>Documentación</h3>
+        <ul>
+            <li><a href="manual.pdf">Manual de Usuario (PDF)</a></li>
+            <li><a href="instalador.zip">Instalador Windows (ZIP)</a></li>
+            <li><a href="http://inseguro.com">Web del fabricante (HTTP)</a></li>
+            <li><a href="https://seguro.com">Portal de Pagos (HTTPS)</a></li>
+        </ul>
+    </div>
+
+    <div class="panel">
+        <h3>Datos de Usuario</h3>
+        <form>
+            <input type="text" placeholder="Nombre (Obligatorio)" required>
+            
+            <input type="text" value="ID-2024 (Solo lectura)" readonly>
+            
+            <input type="email" placeholder="tu@email.com">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 01: La Noticia</title>
+    <link rel="stylesheet" href="01.css">
+</head>
+<body>
+    <h1>Descubrimiento en Marte</h1>
+    
+    <p>La NASA ha publicado hoy nuevas imágenes de la superficie marciana.</p>
+    
+    <p>Estas fotos revelan formaciones rocosas nunca vistas hasta ahora.</p>
+    
+    <p>IMPORTANTE: La rueda de prensa será mañana a las 10:00h.</p>
+    
+    <a href="https://nasa.gov">Leer fuente original</a>
+</body>
+</html>

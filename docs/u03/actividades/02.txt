@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 02: Conferencia</title>
+    <link rel="stylesheet" href="02.css">
+</head>
+<body>
+    <h1>Evento Tecnológico 2024</h1>
+
+    <div>
+        <h2>Ponente Principal</h2>
+        <h3>Elon Musk</h3>
+        <p>CEO de SpaceX y Tesla. Hablará sobre la colonización de Marte.</p>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Invitado Especial</h2>
+        <h3>Ingeniera Jefe</h3>
+        <p>Experta en propulsión iónica.</p>
+    </div>
+
+    <div>
+        <h2>Invitado Especial</h2>
+        <h3>Director de Misión</h3>
+        <p>Experto en logística espacial.</p>
+    </div>
+
+</body>
+</html>

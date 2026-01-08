@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 03: Producto</title>
+    <link rel="stylesheet" href="03.css">
+</head>
+<body>
+
+    <div>
+        <h3>Cámara Reflex 4K</h3>
+        
+        <img src="images/camara.jpg" alt="Cámara" width="60">
+        
+        <p>Captura momentos increíbles con resolución ultra HD y lente de 50mm incluida.</p>
+        
+        <p>450.00€</p>
+        
+        <button>Comprar ahora</button>
+    </div>
+
+</body>
+</html>

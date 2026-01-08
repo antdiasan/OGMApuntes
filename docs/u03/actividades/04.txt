@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 04: Jerarquía</title>
+    <link rel="stylesheet" href="04.css">
+</head>
+<body>
+
+    <h1>Menú de Navegación</h1>
+    <p>Objetivo: Estila el menú principal oscuro y el submenú claro usando selectores de combinación (Hijo > y Descendiente).</p>
+
+    <nav id="menu-principal">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a>
+                <ul>
+                    <li><a href="#">Diseño Web</a></li>
+                    <li><a href="#">Marketing Online</a></li>
+                    <li><a href="#">SEO Avanzado</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>

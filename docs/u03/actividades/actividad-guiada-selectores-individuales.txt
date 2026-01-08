@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad: Selectores individuales</title>
+  <link rel="stylesheet" href="actividad_guiada_selectores_individuales.css">
+</head>
+<body>
+
+  <h1>Actividad práctica: Selectores individuales</h1>
+
+  <p>Este es un párrafo general fuera de cualquier contenedor.</p>
+
+  <div class="caja">
+    <h2>Título dentro de una caja</h2>
+    <p>Párrafo dentro de una caja.</p>
+    <p>Otro párrafo dentro de la caja.</p>
+  </div>
+
+  <div class="caja destacada">
+    <h2 id="titulo-destacado">Caja destacada</h2>
+    <p>Párrafo de la caja destacada.</p>
+  </div>
+
+  <h2>Formulario de ejemplo</h2>
+  <form>
+    <label>
+      Nombre:
+      <input type="text" name="nombre">
+    </label>
+    <br><br>
+    <label>
+      Edad:
+      <input type="number" name="edad">
+    </label>
+  </form>
+
+</body>
+</html>

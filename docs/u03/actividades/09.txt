@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10: Pseudoelementos</title>
+    <link rel="stylesheet" href="10.css">
+</head>
+<body>
+
+    <div class="testimonio">
+        <p>El diseño no es solo lo que se ve y lo que se siente. El diseño es cómo funciona.</p>
+        <div class="autor">Steve Jobs</div>
+    </div>
+
+</body>
+</html>

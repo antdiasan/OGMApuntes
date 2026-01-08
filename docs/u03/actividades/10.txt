@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 09: Herencia y Cascada</title>
+    <link rel="stylesheet" href="09.css">
+</head>
+<body>
+
+    <h1>La Cascada CSS</h1>
+    <p>Prueba de concepto sobre quién gana en caso de conflicto.</p>
+
+    <div class="contenedor">
+        <p>Soy un párrafo normal (Heredo del body o uso estilo de etiqueta).</p>
+
+        <p class="alerta">Soy una alerta (Clase .alerta).</p>
+
+        <p class="alerta" id="peligro">Soy peligroso (Tengo Clase e ID).</p>
+        
+        <a href="#">Soy un enlace (¿Heredo el color del texto?)</a>
+    </div>
+
+</body>
+</html>
