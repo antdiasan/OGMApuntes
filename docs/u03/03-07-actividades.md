@@ -1,0 +1,208 @@
+# Actividad guiada: selectores de combinación
+
+En esta actividad vas a practicar los **selectores de combinación en CSS**, que permiten aplicar estilos teniendo en cuenta la **relación entre los elementos** y la **combinación de criterios** en un mismo selector.
+
+Trabajarás a partir de un código HTML base proporcionado en formato texto.
+
+!!! note "Objetivo de la actividad"
+    Comprender y aplicar correctamente los **selectores de combinación** más importantes de CSS.
+
+---
+
+## Preparación del ejercicio
+
+Descarga el archivo con el código HTML base:
+
+- [actividad-guiada-selectores-combinacion.txt](./actividades/actividad-guiada-selectores-combinacion.txt){: target="_blank" }
+
+A continuación:
+
+1. Abre el archivo `.txt` descargado.
+2. Copia todo su contenido.
+3. Crea un archivo nuevo llamado `actividad-guiada-selectores-combinacion.html`.
+4. Pega el contenido copiado y guarda el archivo.
+5. En la misma carpeta, crea un archivo llamado `selectores_combinacion.css`.
+
+!!! tip "Importante"
+    El archivo HTML **no se modifica** durante la actividad.  
+    Todo el trabajo se realiza sobre el archivo CSS.
+
+---
+
+## Paso 1: selector múltiple
+
+### Qué se quiere conseguir
+Cambiar el color del texto de **todos los títulos `<h1>` y `<h2>`**.
+
+✏️ Intenta escribir la regla CSS antes de mirar la solución.
+
+### Solución
+
+```css
+h1, h2 {
+  color: darkblue;
+}
+```
+
+---
+
+## Paso 2: selector de clases combinadas
+
+### Qué se quiere conseguir
+Añadir un borde solo al **contenedor que tenga las dos clases** `contenedor` y `especial`.
+
+✏️ Utiliza un selector de clases combinadas.
+
+### Solución
+
+```css
+.contenedor.especial {
+  border: 2px solid red;
+}
+```
+
+---
+
+## Paso 3: selector elemento + clase
+
+### Qué se quiere conseguir
+Cambiar el color del texto de los **párrafos destacados**, pero solo si son párrafos.
+
+✏️ Combina etiqueta y clase.
+
+### Solución
+
+```css
+p.destacado {
+  color: green;
+}
+```
+
+---
+
+## Paso 4: selector descendente
+
+### Qué se quiere conseguir
+Cambiar el color de fondo de los **párrafos que estén dentro de un contenedor**.
+
+✏️ Utiliza un selector descendente.
+
+### Solución
+
+```css
+.contenedor p {
+  background-color: #f0f0f0;
+}
+```
+
+---
+
+## Paso 5: selector de hijo directo (`>`)
+
+### Qué se quiere conseguir
+Cambiar el estilo de los elementos de la lista que sean **hijos directos** del menú.
+
+✏️ Utiliza el selector de hijo directo.
+
+### Solución
+
+```css
+.menu > li {
+  list-style-type: square;
+}
+```
+
+---
+
+## Paso 6: selector de posición (`:nth-child`)
+
+### Qué se quiere conseguir
+Poner en negrita únicamente el **segundo enlace** del menú (Servicios).
+
+✏️ Utiliza la pseudo-clase estructural de posición.
+
+### Solución
+
+```css
+.menu li:nth-child(2) a {
+  font-weight: bold;
+}
+```
+
+---
+
+## Paso 7: selector de hermano adyacente (`+`)
+
+### Qué se quiere conseguir
+Poner en cursiva el **párrafo que aparece justo después de un `<h2>`**.
+
+✏️ Utiliza el selector de hermano adyacente.
+
+### Solución
+
+```css
+h2 + p {
+  font-style: italic;
+}
+```
+
+---
+
+## Paso 8: selector de hermanos generales (`~`)
+
+### Qué se quiere conseguir
+Cambiar el color del texto de **todos los párrafos que aparecen después de un `<h2>`** en la misma sección.
+
+✏️ Utiliza el selector de hermanos generales.
+
+### Solución
+
+```css
+h2 ~ p {
+  color: gray;
+}
+```
+
+---
+
+## Paso 9: combinación de selectores
+
+### Qué se quiere conseguir
+Eliminar el subrayado de los enlaces que estén **dentro del menú**.
+
+✏️ Combina selectores para ser más preciso.
+
+### Solución
+
+```css
+.menu li a {
+  text-decoration: none;
+}
+```
+
+---
+
+## Comprobación final
+
+Comprueba que:
+
+- Los títulos `<h1>` y `<h2>` tienen el mismo color.
+- Solo el contenedor especial tiene borde.
+- Los párrafos destacados cambian de color.
+- Solo los párrafos dentro de contenedores tienen fondo.
+- El primer párrafo tras un `<h2>` está en cursiva.
+- Los párrafos siguientes cambian de color.
+- Los enlaces del menú no están subrayados.
+
+---
+
+## Reflexión final
+
+Responde brevemente:
+
+- ¿Qué selector de combinación te ha resultado más sencillo?
+- ¿Cuál te ha costado más entender?
+- ¿En qué caso usarías clases combinadas en lugar de un identificador?
+
+!!! note "Conclusión"
+    Esta actividad consolida el uso de los selectores de combinación más habituales en CSS.

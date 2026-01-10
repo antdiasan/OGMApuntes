@@ -1,0 +1,197 @@
+/* =========================
+   ESTILOS GENERALES
+   ========================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f7fa;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* =========================
+   CABECERA
+   ========================= */
+
+.header {
+  background-color: #0a3d62;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.header__logo,
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__logo img {
+  width: 60px;
+  vertical-align: middle;
+}
+
+.header__logo h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+  background-color: #eaf2f8;
+  padding: 60px 40px;
+}
+
+.hero__content,
+.hero__image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+}
+
+.hero__content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.hero__content p {
+  margin-bottom: 25px;
+}
+
+.hero__button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #0a3d62;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* =========================
+   CONTENIDO PRINCIPAL
+   ========================= */
+
+.main {
+  padding: 60px 40px;
+}
+
+/* =========================
+   TARJETAS
+   ========================= */
+
+.cards {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  background-color: #fff;
+  border-radius: 6px;
+  vertical-align: top;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 20px;
+}
+
+.card p {
+  margin: 0 20px 20px;
+}
+
+/* =========================
+   CONTENIDO + SIDEBAR
+   ========================= */
+
+.content-layout {
+  margin-top: 40px;
+}
+
+.content,
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content {
+  width: 68%;
+}
+
+.sidebar {
+  width: 28%;
+  margin-left: 4%;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.article {
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+}
+
+/* =========================
+   PIE DE PÁGINA
+   ========================= */
+
+.footer {
+  background-color: #0a3d62;
+  color: #fff;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.footer__columns div {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 3%;
+}
+
+.footer__copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}

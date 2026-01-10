@@ -1,0 +1,77 @@
+/* ==================================
+   ESTILOS MUY BÁSICOS
+   Proyecto CSS - Nivel inicial absoluto
+   ================================== */
+
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Imágenes */
+
+img {
+  max-width: 100%;
+}
+
+/* Cabecera */
+
+.header img,
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+
+/* Navegación */
+
+.nav {
+  background-color: #cccccc;
+  text-align: center;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list li {
+  display: inline;
+}
+
+.nav__list a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Secciones */
+
+.hero,
+.main,
+.cards,
+.content,
+.sidebar,
+.footer {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #eeeeee;
+}
+
+/* Tarjetas */
+
+.card {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+/* Pie de página */
+
+.footer {
+  text-align: center;
+}

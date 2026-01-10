@@ -65,26 +65,36 @@ nav:
       # El Box Model se introduce pronto, como base mental
       - "El modelo de caja (Box Model)": u03/03-04.md
       - "Selectores individuales": u03/03-05.md
-      - "Actividad guiada": u03/03-06.md
-      - "Propiedades básicos": u03/03-07.md
-      - "Selectores de combinación": u03/03-08.md
-      - "Actividad guiada": u03/03-09.md
-      - "Propiedades estéticas": u03/03-10.md
-      - "Pseudoselectores": u03/03-11.md
-      - "Actividad guiada": u03/03-12.md
+      - "Propiedades básicas": u03/03-06.md
+      - "Selectores de combinación": u03/03-07.md
+      - "Propiedades estéticas": u03/03-08.md
+      - "Pseudoselectores": u03/03-09.md
       # Teoría para entender conflictos de estilos
-      - "Herencia y cascada": u03/03-13.md
-      - "Buenas prácticas en CSS": u03/03-14.md
-      - "Actividades propuestas": u03/03-15.md
+      - "Herencia y cascada": u03/03-10.md
+      - "Buenas prácticas en CSS": u03/03-11.md
+      - "Actividades propuestas": u03/03-12.md
 
   - UD4:
-      - Estructura de una página web: u04/04-01.md
-      - Flujo del documento y propiedad display:  u04/04-02.md
-      - Centrado de elementos:  u04/04-03.md
-      - Posicionamiento básico con CSS:  u04/04-04.md
-      - Introducción a Flexbox:  u04/04-05.md
-      - Flexbox:  u04/04-06.md
-      - Introducción al diseño responsive:  u04/04-07.md
-      - Media Queries básicas:  u04/04-08.md
-      - Imágenes y texto adaptables:  u04/04-09.md
-      - Proyecto práctico final:  u04/04-10.md
+      - Introducción a la maquetación web: u04/04-00.md
+      - El concepto de Layout:  u04/04-01.md
+      - El flujo de los elementos en el navegador:  u04/04-02.md
+      - Actividades propuestas: u04/04-02-actividades.md
+      - La propiedad "display":  u04/04-03.md
+      - El modelo de caja y box-sizing:  u04/04-04.md
+      - El centrado de elementos en CSS:  u04/04-05.md
+      - Posicionamiento Básico:  u04/04-06.md
+      - Maquetación con inline-block y columnas:  u04/04-07.md
+      - Introducción a Flexbox para maquetación:  u04/04-08.md
+      - Proyecto práctico final:  u04/04-09.md
+
+  - UD5:
+      - Introducción al diseño web responsivo: u05/05-00.md
+      - Repaso de conceptos de maquetación: u05/05-01.md
+      - Introducción a CSS Grid para layouts completos: u05/05-02.md
+      - Estructuras comunes con Grid: u05/05-03.md
+      - Diseño web responsivo: u05/05-04.md
+      - Media queries y breakpoints básicos: u05/05-05.md
+      - Animaciones y transiciones CSS básicas: u05/05-06.md
+      - Buenas prácticas en diseño responsivo: u05/05-07.md
+      - Proyecto final de sitio web: u05/05-08.md
+
